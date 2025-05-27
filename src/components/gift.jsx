@@ -59,7 +59,7 @@ function Gift() {
                 className="text-center w-1/2 h-0.5 bg-gray-400 "
               />
               <div>
-                <p className="font-cal-sans text-xs">a/n Visa</p>
+                <p className="font-cal-sans text-xs">a/n Nurlaela Navisa</p>
 
                 <p className="font-raleway text-sm font-semibold text-primary">
                   {nodana}
