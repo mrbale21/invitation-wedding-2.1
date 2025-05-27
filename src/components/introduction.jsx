@@ -30,7 +30,7 @@ function Introduction() {
               <h1 className="font-cal-sans font-semibold">The Wedding Of</h1>
               <div>
                 <h2 className="font-sacramento font-semibold text-accent/80 text-4xl mt-1">
-                  Ahmad & Navisa
+                  Navisa & Ahmad
                 </h2>
               </div>
             </div>

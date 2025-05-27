@@ -82,7 +82,7 @@ function FirstPage() {
                 data-aos="fade-up"
                 className="font-breathing text-2xl font-semibold text-primary"
               >
-                Ahmad & Navisa
+                Navisa & Ahmad
               </h3>
               <h5 data-aos="fade-up" className="text-sm font-raleway">
                 06.07.2025

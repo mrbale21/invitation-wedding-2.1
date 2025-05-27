@@ -41,10 +41,10 @@ function SpecialDay({ targetDate }) {
           <div className="flex pt-10 font-cal-sans text-6xl relative">
             <div className="flex gap-4">
               <h1 data-aos="fade-right" data-aos-delay="0" className="">
-                A
+                N
               </h1>
               <h1 data-aos="fade-left" data-aos-delay="0">
-                N
+                A
               </h1>
             </div>
             <div className="absolute left-3/6 top-0 mt-8 h-20 w-px bg-primary"></div>

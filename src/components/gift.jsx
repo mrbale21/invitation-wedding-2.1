@@ -43,47 +43,11 @@ function Gift() {
             tanda kasih, kami dengan senang hati menerimanya dan tentunya
             semakin melengkapi kebahagiaan kami.
           </div>
+
           <div
             data-aos="zoom-in"
             data-aos-delay="200"
             className="bg-accent border border-primary rounded-2xl shadow shadow-primary w-4/5 mb-4"
-          >
-            <div className="flex flex-col justify-center items-center gap-2 text-secondary p-4 ">
-              <h1 className="font-akaya-kanadaka font-semibold text-lg text-primary">
-                <img src={mandiri} alt="mandiri" className="h-6" />
-              </h1>
-
-              <div
-                data-aos="zoom-out"
-                className="text-center w-1/2 h-0.5 bg-gray-400 "
-              />
-              <div>
-                <p className="font-cal-sans text-xs">a/n Ahmad Laelatulloh</p>
-
-                <p className="font-raleway text-sm font-semibold text-primary">
-                  {rekening}
-                </p>
-              </div>
-              <div className="flex flex-col justify-between items-end"></div>
-              {copied && (
-                <span className="text-blue-500 text-[10px]">Tersalin!</span>
-              )}
-              <div
-                onClick={handleCopy}
-                className="flex items-center gap-1 bg-primary text-accent p-1 px-2 rounded-sm hover:bg-primary/90 cursor-pointer"
-              >
-                <h2 className="font-raleway font-bold text-[8px]">
-                  Copy No. Rekening
-                </h2>
-                <RiFileCopyLine />
-              </div>
-            </div>
-          </div>
-
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="200"
-            className="bg-accent border border-primary rounded-2xl shadow shadow-primary w-4/5"
           >
             <div className="flex flex-col justify-center items-center gap-2 text-secondary p-4 ">
               <h1 className="font-akaya-kanadaka font-semibold text-lg text-primary">
@@ -107,6 +71,43 @@ function Gift() {
               )}
               <div
                 onClick={handleCopy2}
+                className="flex items-center gap-1 bg-primary text-accent p-1 px-2 rounded-sm hover:bg-primary/90 cursor-pointer"
+              >
+                <h2 className="font-raleway font-bold text-[8px]">
+                  Copy No. Rekening
+                </h2>
+                <RiFileCopyLine />
+              </div>
+            </div>
+          </div>
+
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="200"
+            className="bg-accent border border-primary rounded-2xl shadow shadow-primary w-4/5 "
+          >
+            <div className="flex flex-col justify-center items-center gap-2 text-secondary p-4 ">
+              <h1 className="font-akaya-kanadaka font-semibold text-lg text-primary">
+                <img src={mandiri} alt="mandiri" className="h-6" />
+              </h1>
+
+              <div
+                data-aos="zoom-out"
+                className="text-center w-1/2 h-0.5 bg-gray-400 "
+              />
+              <div>
+                <p className="font-cal-sans text-xs">a/n Ahmad Laelatulloh</p>
+
+                <p className="font-raleway text-sm font-semibold text-primary">
+                  {rekening}
+                </p>
+              </div>
+              <div className="flex flex-col justify-between items-end"></div>
+              {copied && (
+                <span className="text-blue-500 text-[10px]">Tersalin!</span>
+              )}
+              <div
+                onClick={handleCopy}
                 className="flex items-center gap-1 bg-primary text-accent p-1 px-2 rounded-sm hover:bg-primary/90 cursor-pointer"
               >
                 <h2 className="font-raleway font-bold text-[8px]">

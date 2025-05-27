@@ -21,7 +21,7 @@ function Footer() {
             data-aos="fade-up"
             className="font-breathing text-2xl font-medium text-accent"
           >
-            Ahmad & Navisa
+            Navisa & Ahmad
           </h3>
           <h5
             data-aos="fade-up"
